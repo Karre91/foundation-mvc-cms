@@ -48,6 +48,7 @@
     <Compile Remove="Infrastructure\PowerSlices\GeneralSlices.cs" />
     <Content Remove="Features\Media\PdfFile.cshtml" />
     <Content Remove="Features\Shared\Views\ElementBlocks\ChoiceElementBlock.cshtml" />
+    <None Include="Features\Blocks\HeroBlock\HeroBlock.cshtml" />
     <None Include="Features\Shared\Views\ElementBlocks\ChoiceElementBlock.cshtml" />
   </ItemGroup>
 </Project>

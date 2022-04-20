@@ -22,11 +22,11 @@
     var textColor = string.Empty;
     if (Model.CurrentContent.TitleColor.Equals("Light"))
     {
-        textColor = "color: #004564";
+        textColor = "color: #FF0000";
     }
     else if (Model.CurrentContent.TitleColor.Equals("Dark"))
     {
-        textColor = "color: #004564";
+        textColor = "color: #FF0096";
     }
 }
 
@@ -39,6 +39,7 @@
                     <h4 class="small" style="@textColor">@Model.CategoryName</h4>
                 }
                 <h1 style="padding: 1em 0; @textColor">@Html.PropertyFor(x => x.CurrentContent.Name)</h1>
+                Kalle Anka
             </div>
             <div class="standard-page__hero @heroClass">
                 @if (!ContentReference.IsNullOrEmpty(Model.CurrentContent.BackgroundVideo))
